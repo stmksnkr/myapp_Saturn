@@ -1,0 +1,133 @@
+.image-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .carousel-container {
+    height: 300px; /* Set a fixed height for the carousel container */
+    overflow: hidden; /* Hide any overflow */
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .thumbnail-container {
+    display: flex;
+    flex-direction: column;
+    height: 300px; /* Match the height with the carousel */
+    overflow-y: auto;
+  }
+  
+  .thumbnail-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .description-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .button-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .action-button {
+    margin: 0 5px;
+  }
+  
+
+
+
+  .image-column {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .description-column {
+    overflow-y: auto;
+    padding-top: 15px;
+  }
+  
+  /* Custom section styling */
+  .section {
+    margin-bottom: 15px;
+  }
+  
+  .button-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .action-button {
+    flex: 1;
+    margin: 0 5px;
+  }
+
+
+  /* Responsive adjustments */
+  @media (max-width: 767.98px) {
+    .image-column, .description-column {
+      margin-bottom: 10px;
+    }
+  
+    .description-column {
+      padding-top: 0;
+    }
+  
+    .button-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .action-button {
+      width: 100%;
+      margin: 5px 0;
+    }
+  }
+
+  
+  .grid-section {
+    margin-bottom: 20px;
+  }
+  
+  .grid-item {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    text-align: center;
+    background: #f8f9fa;
+  }
+  
+  .location-item {
+    position: relative;
+  }
+  
+  .location-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .location-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 3px;
+  }
